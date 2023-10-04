@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Student details</title>
+
+</head>
+<body style="background-color: lightblue;">
+    
+
+   <fieldset>
+    <center>
+    <legend>Personal Details</legend><br>
+    
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+
+    <label for="mname">Middle Name</label>
+    <input type="text" id="mname" name="mname"><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" name="dob"><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="xyz@gmail.com" id="email" name="email"><br><br>
+
+    <label>Select Gender</label>
+
+    <input type="radio" name="select" name="male">
+    <label for="male">MALE</label>
+
+    <input type="radio"  name="select" name="female">
+    <label for="female">FEMALE</label>
+
+
+   </fieldset>
+
+<fieldset>
+    <center>
+    <legend>Education Details</legend><br>
+
+    <label>Select Department</label>
+
+    <input type="radio" name="select" name="cse">
+    <label for="cse">CSE</label>
+
+    <input type="radio"  name="select" name="ece">
+    <label for="ec">ECE</label>
+
+    <input type="radio" name="select" name="civil">
+    <label for="civil">CIVIL</label>
+
+    <input type="radio"  name="select" name="mech">
+    <label for="mech">MECH</label><br><br>
+
+    <label for="yop">YOG</label>
+    <input list="yog" id="yop" name="yop"><br><br>
+
+    <datalist id="yog">
+        <option></option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+    </datalist>
+    
+    <label>Select Skills :</label><br><br>
+ <form action="">
+
+    <input type="checkbox" name="select" id="html">
+    <label for="html">HTML</label><br><br>
+
+    <input type="checkbox" name="select" id="css" >
+    <label for="css">CSS</label><br><br>
+
+    <input type="checkbox" name="select" id="js" >
+    <label for="javascipt">javascript</label><br><br>
+
+    <label>Comments :</label><br><br>
+    <textarea rows="4" cols="40"></textarea><br><br>
+
+
+    <input type="submit">
+    <input type="reset">
+</center>
+</center>
+</form>
+</fieldset>
+</body>
+</html>
