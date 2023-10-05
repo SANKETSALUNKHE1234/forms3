@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Student details</title>
+    <style>
+        
+        .one{
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;background-color: rgb(47, 107, 84);"><marquee behaviour="scroll">*Student Form*</marquee></h1>
+    
+    
+   <form action="http://127.0.0.1:5500/form4.html" target="_self">
+   <fieldset>
+    <center>
+    <legend style="border: 2px solid red;background-color: aqua;">Personal Details</legend><br>
+    
+    <label for="fname" style="background-color: gray;">First Name</label>
+    <input type="text" id="fname" name="fname" justify="center"><br><br>
+
+
+    <label for="mname" style="background-color: gray;">Middle Name</label>
+    <input type="text" id="mname" name="mname" justify="center"><br><br>
+
+    <label for="lname" style="background-color: gray;">Last Name</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="date" style="background-color: gray;">Date of Birth</label>
+    <input type="date" id="date" name="dob"><br><br>
+
+    <label for="email" style="background-color: gray;">Email</label>
+    <input type="email" placeholder="xyz@gmail.com" id="email" name="email"><br><br>
+
+    <label style="background-color: gray;">Select Gender</label>
+
+    <input type="radio" name="select" name="male">
+    <label for="male">MALE</label>
+
+    <input type="radio"  name="select" name="female">
+    <label for="female">FEMALE</label><br><br>
+
+   
+    <label for="img">Choose Image</label>
+    <input type="file" id="img" name="img" text-align="center"><br><br>
+  
+
+
+   </fieldset>
+
+<fieldset>
+    <center>
+    <legend style="border: 2px solid red ;background-color: aqua;">Education Details</legend><br>
+
+    <label style="background-color: gray;">Select Department</label>
+
+    <input type="radio" name="select" name="cse">
+    <label for="cse">CSE</label>
+
+    <input type="radio"  name="select" name="ece">
+    <label for="ec">ECE</label>
+
+    <input type="radio" name="select" name="civil">
+    <label for="civil">CIVIL</label>
+
+    <input type="radio"  name="select" name="mech">
+    <label for="mech">MECH</label><br><br>
+
+    <label class="one" for="yop">YOG</label>
+    <input list="yog" id="yop" name="yop"><br><br>
+
+    <datalist id="yog">
+        <option></option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+    </datalist>
+    
+    <label style="border: 2px solid blue;">Select Skills :</label><br><br>
+ <form action="">
+      <label> Please select skills from below  *</label><br><br>
+    <input style="border: 4px solid black;" type="checkbox" name="select" id="html">
+    <label for="html">HTML</label><br><br>
+
+    <input type="checkbox" name="select" id="css">
+    <label for="css">CSS</label><br><br>
+
+    <input type="checkbox" name="select" id="js">
+    <label for="javascipt">javascript</label><br><br>
+
+    
+    <label style="text-shadow: 2px;" for="resume">Resume</label>
+    <input type="file" id="resume" name="resume"><br><br>
+    <input type="submit">
+    <input type="reset"><br><br>
+     
+     
+
+    <label style="border: 2px solid blue ;">Comments :</label><br><br>
+    <textarea rows="4" cols="40" placeholder="comment if any question?"></textarea><br><br>
+
+
+    <input type="submit" style="border: 2px solid blue;">
+    <input type="reset" style="border: 2px solid blue;">
+
+</center>
+</center>
+</form>
+</fieldset>
+</body>
+</html>
